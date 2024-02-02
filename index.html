@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/login.png">
+    <title>NecroRising</title>
+</head>
+
+<body>
+    <main>
+        <section class="login-container">
+            <img class="logo" src="img/login.png">
+            <h1 class="title">Fazer Login</h1>
+            <label class="label_login">
+                <span>Nome de Usuario</span>
+                <input type="text" name="username" class="input">
+            </label>
+            <label class="label_login">
+                <span>Senha</span>
+                <input type="password" name="password" class="input">
+            </label>
+            <div class="label_icons">
+                <button type="button" class="button_icons">
+                    <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                </button>
+                <button type="button" class="button_icons">
+                    <a href=""><ion-icon name="logo-apple"></ion-icon></a>
+                </button>
+                <button type="button" class="button_icons">
+                    <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                </button>
+            </div>
+            <label class="login_checkbox">
+                <input type="checkbox" class="checkbox">
+                Sempre conectado
+            </label>
+            <button type="button" class="enter-button" disabled>
+                <a href=""><ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </button>
+            <button class="account">
+                <a href="" class="login-link1">Crie sua Conta</a>
+            </button>
+            <a href="" class="login-link">Esqueceu sua senha?</a>
+        </section>
+        <section class="paper">
+        </section>
+        <section class="wallpaper"></section>
+    </main>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="src/input-login.js"></script>
+    <script src="src/login-button.js"></script>
+</body>
+
+</html>
