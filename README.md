@@ -6,7 +6,7 @@
     <br>
 
 <p align="center">
-    <img alt="projeto spotify" src="img/readme.png" width="100%"
+    <img alt="projeto spotify" src="img/reeadme.png" width="100%"
 </p>
 
 ## 🛸 Tecnologias
